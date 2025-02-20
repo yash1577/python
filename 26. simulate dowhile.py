@@ -2,7 +2,7 @@
 n = int(input("enter any integer number : "))
 i = 1
 while True:
-    print(i)
+    print(i,end=" " ,)
     i=i+1
     if i>n:
         break
